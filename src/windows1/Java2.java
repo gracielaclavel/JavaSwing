@@ -31,7 +31,10 @@ public class Java2 extends JFrame //Llamando a los elemento que voy a utilizar
         panel.add(label);// Agregamos un objeto al panel
         panel.add(text);
         panel.add(boton);
-    
+     
+        label.setText("Nombre");
+        boton.setText("Enviar");
+        panel.setBackground(Color.red);
     }
     
 }
