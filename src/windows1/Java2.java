@@ -26,6 +26,8 @@ public class Java2 extends JFrame //Llamando a los elemento que voy a utilizar
         label=new JLabel();
         text=new JTextField(15);//15 es la cant de caracteres
         boton = new JButton();
+        cbox =new JCheckBox();
+        rb=new JRadioButton ();
         
         this.add(panel);//Recomendable agregar el JPanel al JFrame
         panel.add(label);// Agregamos un objeto al panel
@@ -36,7 +38,7 @@ public class Java2 extends JFrame //Llamando a los elemento que voy a utilizar
      
         label.setText("Nombre");
         boton.setText("Enviar");
-        panel.setBackground(Color.red);
+        panel.setBackground(Color.yellow);
     }
     
 }
