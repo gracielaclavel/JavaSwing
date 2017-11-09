@@ -24,8 +24,13 @@ public class Java2 extends JFrame //Llamando a los elemento que voy a utilizar
     {
         panel = new JPanel(); //Creo un objeto tipo JPanel
         label=new JLabel();
-        text=new JTextField(15);//20 es la cant de caracteres
+        text=new JTextField(15);//15 es la cant de caracteres
         boton = new JButton();
+        
+        this.add(panel);//Recomendable agregar el JPanel al JFrame
+        panel.add(label);// Agregamos un objeto al panel
+        panel.add(text);
+        panel.add(boton);
     
     }
     
