@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package javaswing;
+import windows1.Java2;  // Importamos paquete y clase
+import javax.swing.JFrame;
 
 /**
  *

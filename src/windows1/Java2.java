@@ -17,8 +17,8 @@ public class Java2 extends JFrame //Llamando a los elemento que voy a utilizar
     JLabel label;
     JTextField text;
     JButton boton; 
-    JCheckBox;
-    JRadioButton;
+    JCheckBox cbox;
+    JRadioButton rb;
     
     public Java2()
     {
@@ -31,6 +31,8 @@ public class Java2 extends JFrame //Llamando a los elemento que voy a utilizar
         panel.add(label);// Agregamos un objeto al panel
         panel.add(text);
         panel.add(boton);
+        panel.add(cbox);
+        panel.add(rb);
      
         label.setText("Nombre");
         boton.setText("Enviar");
